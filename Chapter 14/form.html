@@ -1,0 +1,81 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en" >
+    <head >
+        <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+        <title>The Starbuzz Bean Machine</title>
+        <link type="text/css" rel="stylesheet" href="form.css" />
+    </head>
+    <body>
+        <h1>The starbuzz Bean Machine</h1>
+        <h2>Fill out the form below and click submit to order</h2>
+        <form action="http://www.starbuzzcoffee.com/processorder.php" method="post">
+            <table>
+                <tr>
+                    <td>Choose your beans:</td>
+                    <td>
+                        <select name="beans">
+                            <option value="House blend">House blend</option>
+                            <option value="Shade Grown Bolivia Supremo">Shade Grown Bolivia Supremo</option>
+                            <option value="Organic Guatemala">Organic Guatemala</option>
+                            <option value="Kenya">Kenya</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Type:</td>
+                    <td>
+                        <input type="radio" name="beantype" value="whole" />Whole bean<br />
+                        <input type="radio" name="beantype" value="ground" checked="checked" />Ground<br />
+                    </td>
+                </tr>
+                <tr>
+                    <td>Extras:</td>
+                    <td>
+                        <input type="checkbox" name="extras[]" value="giftwrap" />Gift wrap<br />
+                        <input type="checkbox" name="extras[]" value="catalog" checked="checked" />Include catalog with order<br />
+                    </td>
+                </tr>
+                <tr>
+                    <td>Ship to:</td>
+                    <td>
+                        <table>
+                            <tr>
+                                <td>Name:</td>
+                                <td><input type="text" name="name" /></td>
+                            </tr>
+                            <tr>
+                                <td>Address:</td>
+                                <td><input type="text" name="address" /></td>
+                            </tr>
+                            <tr>
+                                <td>City:</td>
+                                <td><input type="text" name="city" /></td>
+                            </tr>
+                            <tr>
+                                <td>State:</td>
+                                <td><input type="text" name="state" /></td>
+                            </tr>
+                            <tr>
+                                <td>Zip:</td>
+                                <td><input type="text" name="zip" /></td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>
+                        
+                    </td>
+                </tr>
+                <tr>
+                    <td>Customer's comment:</td>
+                    <td><textarea name="comments" rows="10" cols="48"></textarea></td>
+                </tr><br />
+                <tr>
+                    <td colspan="2"> <input type="submit" value="Order now!"/></td>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>

@@ -1,0 +1,31 @@
+<form action="http://www.starbuzzcoffee.com/processorder.php" method="POST">
+    <p> Choose your beans:
+    <select name="beans">
+    <option value="House Blend">House Blend</option>
+    <option value="Bolivia">Shade Grown Bolivia Supremo</option>
+    <option value="Guatemala">Organic Guatemala</option>
+    <option value="Kenya">Kenya</option>
+    </select>
+    </p>
+    <p>Type: <br />
+    <input type="radio" name="beantype" value="whole" /> Whole bean <br />
+    <input type="radio" name="beantype" value="ground" checked="checked" /> Ground
+    </p>
+    <p>Extras: <br />
+    <input type="checkbox" name="extras[]" value="giftwrap" /> Gift wrap <br />
+    <input type="checkbox" name="extras[]" value="catalog" checked="checked" /> Include
+    catalog with order
+    </p>
+    <p>Ship to: <br />
+    Name: <input type="text" name="name" /> <br />
+    Address: <input type="text" name="address" /> <br />
+    City: <input type="text" name="city" /> <br />
+    State: <input type="text" name="state" /> <br />
+    Zip: <input type="text" name="zip" /> <br />
+    <p>Customer Comments: <br />
+    <textarea name="comments" rows="10" cols="48"></textarea>
+    </p>
+    <p>
+    <input type="submit" value="Order Now" />
+    </p>
+    </form>

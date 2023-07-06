@@ -1,0 +1,23 @@
+body {
+    font-family: Verdana, Geneva, Arial, sans-serif;
+    font-size: small;
+}
+
+h1 {
+    font-size: 170%;
+}
+
+h2 {
+    font-size:130%;
+}
+
+h1, h2 {
+    text-decoration: underline;
+    color: #c60;
+    border-bottom: thin dotted #888888;
+    font-weight: normal;
+}
+
+blockquote {
+    font-style: oblique;
+}

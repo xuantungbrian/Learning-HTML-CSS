@@ -1,0 +1,10 @@
+I’m the #1 heading-<h1>-block
+I’m all ready to link to another page.-<a>-inline
+Emphasize text with me.-<em>-inline
+I’m a list, but I don’t have my affairs in order.-<ul>-block
+I’m an item that lives inside a list.-<li>-block
+I’m a real linebreaker.-<br>-between
+I keep my list items in order.-<ol>-block
+I’m all about image.-<img>-inline
+Quote inside a paragraph with me.-<q>-inline
+Use me to quote text that stands on its own-<blockquote>-block

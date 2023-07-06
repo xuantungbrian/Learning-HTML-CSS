@@ -1,0 +1,9 @@
+1) Wrong nested </head> and </body>
+2) Lack </h1>
+3) <p> and <q> nested the wrong way
+4) Wrong <em>
+5) Wrong <p>
+6) Mistake <h2> and <h3> in XandY and Coldplay
+7) Missing a lot of closing </li>
+8) Should be <ol> instead of <ul>
+9) Lack of </html>
